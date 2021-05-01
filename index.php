@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Formulario</h1>
-	<form action="enviar.php" method="POST" class="form">
+	<form method="POST" class="form">
 		<div class="in-cont">
 			<label for="nombre">Nombre</label>
 			<input type="text" name="nombre" id="nombre" class="input">
@@ -27,5 +27,10 @@
 		</div>
 		<input type="submit" value="Enviar">
 	</form>
+	<?php
+
+		include("enviar.php");
+
+	?>
 </body>
 </html>
